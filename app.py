@@ -20,8 +20,8 @@ def main():
                 clean_text = preprocess_text(article_data['text'])
                 summary = summarize_text(clean_text)
 
-                st.subheader("Original Summary")
-                st.write(summary)
+                # st.subheader("Original Summary")
+                # st.write(summary)
 
                 neutral_summary, label, bias_score = detect_and_neutralize_bias(summary)
 
