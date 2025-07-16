@@ -1,0 +1,10 @@
+^C:\USERS\LAURE\DESKTOP\SENTENCEPIECE-MASTER\CMAKELISTS.TXT
+setlocal
+C:\Users\laure\AppData\Local\Programs\Python\Python313\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/laure/Desktop/sentencepiece-master "-BC:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build" --check-stamp-file "C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

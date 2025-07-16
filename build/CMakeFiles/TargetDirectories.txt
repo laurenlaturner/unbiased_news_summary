@@ -1,0 +1,15 @@
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/CMakeFiles/PACKAGE.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/CMakeFiles/INSTALL.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/CMakeFiles/sentencepiece-static.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/CMakeFiles/sentencepiece_train-static.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/CMakeFiles/spm_encode.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/CMakeFiles/spm_decode.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/CMakeFiles/spm_normalize.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/CMakeFiles/spm_train.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/CMakeFiles/spm_export_vocab.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/CMakeFiles/PACKAGE.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/CMakeFiles/INSTALL.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/third_party/CMakeFiles/PACKAGE.dir
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/third_party/CMakeFiles/INSTALL.dir

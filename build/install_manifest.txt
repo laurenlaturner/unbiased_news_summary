@@ -1,0 +1,9 @@
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/buildroot/lib/sentencepiece.lib
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/buildroot/lib/sentencepiece_train.lib
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/buildroot/bin/spm_encode.exe
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/buildroot/bin/spm_decode.exe
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/buildroot/bin/spm_normalize.exe
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/buildroot/bin/spm_train.exe
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/buildroot/bin/spm_export_vocab.exe
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/buildroot/include/sentencepiece_trainer.h
+C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/buildroot/include/sentencepiece_processor.h

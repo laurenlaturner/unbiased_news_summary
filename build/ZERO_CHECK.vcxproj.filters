@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\CMakeFiles\5bfa878b062bb96124dce9791725c668\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{291D1EFC-56FE-37FD-897B-25F7C00E049C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

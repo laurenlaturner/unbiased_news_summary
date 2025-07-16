@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\unicode_script.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\trainer_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\trainer_interface.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\unigram_model_trainer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\word_model_trainer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\char_model_trainer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\bpe_model_trainer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\sentencepiece_trainer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laure\Desktop\sentencepiece-master\src\pretokenizer_for_training.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\builtin_pb\sentencepiece.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\builtin_pb\sentencepiece_model.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\normalization_rule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\unicode_script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\unicode_script_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\trainer_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\trainer_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\unigram_model_trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\word_model_trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\char_model_trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\bpe_model_trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\sentencepiece_trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laure\Desktop\sentencepiece-master\src\pretokenizer_for_training.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\laure\Desktop\sentencepiece-master\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61C3F2F9-989D-3A0E-A8E3-C3ADB3D7A771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8D6B59FF-31B6-312A-AC0C-ECC951CFAA9E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

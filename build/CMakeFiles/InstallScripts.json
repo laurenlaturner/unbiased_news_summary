@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/cmake_install.cmake",
+		"C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/src/cmake_install.cmake",
+		"C:/Users/laure/Desktop/llm, api, ai, nlp projects/unbiased_news_summary/build/third_party/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

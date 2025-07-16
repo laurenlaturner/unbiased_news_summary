@@ -1,0 +1,3 @@
+[submodule "scentencepiece"]
+	path = scentencepiece
+	url = https://github.com/laurenlaturner/unbiased_news_summary.git

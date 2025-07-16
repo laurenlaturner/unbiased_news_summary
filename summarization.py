@@ -1,8 +1,9 @@
-from transformers import T5ForConditionalGeneration, T5Tokenizer
+from transformers import PegasusForConditionalGeneration, PegasusTokenizer
 
-model_name = "t5-small"
-tokenizer = T5Tokenizer.from_pretrained(model_name)
-model = T5ForConditionalGeneration.from_pretrained(model_name)
+model_name = "google/pegasus-xsum"
+
+tokenizer = PegasusTokenizer.from_pretrained(model_name)
+model = PegasusForConditionalGeneration.from_pretrained(model_name)
 
 def chunk_text(text, max_tokens=512):
     tokens = tokenizer.tokenize(text)
@@ -14,41 +15,36 @@ def chunk_text(text, max_tokens=512):
     return chunks
 
 def summarize_text(text):
-    # Chunk text if too long
     chunks = chunk_text(text, max_tokens=512)
 
     chunk_summaries = []
     for chunk in chunks:
-        input_text = "summarize: " + chunk.strip().replace("\n", " ")
-        inputs = tokenizer.encode(input_text, return_tensors="pt", max_length=512, truncation=True)
-        outputs = model.generate(
-            inputs,
-            max_length=180,           # max tokens in summary
-            min_length=60,            # min tokens in summary
+        inputs = tokenizer(chunk, return_tensors="pt", max_length=512, truncation=True)
+        summary_ids = model.generate(
+            **inputs,
+            max_length=150,
+            min_length=40,
             length_penalty=2.0,
             num_beams=5,
             early_stopping=True,
-            no_repeat_ngram_size=3,   # avoid repetition
+            no_repeat_ngram_size=3
         )
-        summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
         chunk_summaries.append(summary)
 
-    # Combine chunk summaries into one text and optionally summarize again
     combined_summary = " ".join(chunk_summaries)
 
-    # Optional: do a final summarization pass on combined summary if too long
     if len(tokenizer.tokenize(combined_summary)) > 512:
-        input_text = "summarize: " + combined_summary.strip().replace("\n", " ")
-        inputs = tokenizer.encode(input_text, return_tensors="pt", max_length=512, truncation=True)
-        outputs = model.generate(
-            inputs,
-            max_length=180,
-            min_length=60,
+        inputs = tokenizer(combined_summary, return_tensors="pt", max_length=512, truncation=True)
+        summary_ids = model.generate(
+            **inputs,
+            max_length=150,
+            min_length=40,
             length_penalty=2.0,
             num_beams=5,
             early_stopping=True,
-            no_repeat_ngram_size=3,
+            no_repeat_ngram_size=3
         )
-        combined_summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        combined_summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
     return combined_summary

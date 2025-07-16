@@ -1,0 +1,10 @@
+C:\Users\laure\Desktop\sentencepiece-master\src\builder.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\builder.obj
+C:\Users\laure\Desktop\sentencepiece-master\src\unicode_script.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\unicode_script.obj
+C:\Users\laure\Desktop\sentencepiece-master\src\trainer_factory.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\trainer_factory.obj
+C:\Users\laure\Desktop\sentencepiece-master\src\trainer_interface.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\trainer_interface.obj
+C:\Users\laure\Desktop\sentencepiece-master\src\unigram_model_trainer.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\unigram_model_trainer.obj
+C:\Users\laure\Desktop\sentencepiece-master\src\word_model_trainer.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\word_model_trainer.obj
+C:\Users\laure\Desktop\sentencepiece-master\src\char_model_trainer.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\char_model_trainer.obj
+C:\Users\laure\Desktop\sentencepiece-master\src\bpe_model_trainer.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\bpe_model_trainer.obj
+C:\Users\laure\Desktop\sentencepiece-master\src\sentencepiece_trainer.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\sentencepiece_trainer.obj
+C:\Users\laure\Desktop\sentencepiece-master\src\pretokenizer_for_training.cc;C:\Users\laure\Desktop\llm, api, ai, nlp projects\unbiased_news_summary\build\src\sentencepiece_train-static.dir\Release\pretokenizer_for_training.obj
